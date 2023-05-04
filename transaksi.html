@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Data Transaksi</title>
+        <link rel="stylesheet" href="databuku.css">
+    </head>
+<nav>
+    <h2>Input Data Transaksi</h2>
+    <form method="post" action=" " name="frmdaftar" onsubmit="return cekform()">
+        <font face="" size="3">
+            <table border="0" cellpadding="5" cellspacing="3" div style="height: 20%; width: 43%; border-radius: 2px;"
+                align="center">
+
+        ID Transaksi              <input type="number" name="ID" id="ID"  size="100"><br>
+        ID Buku                  : <input type="number" name="ID" id="ID" size="100"><br>
+        Nama                      <input type="text" name="Nama" id="Nama"  size="100"><br>
+        Jurusan          
+        <select>
+            <option value="Teknologi Informasi Dan Komputer">Teknologi Informasi Dan Komputer</option>
+            <option value="Teknik Kimia">Teknik Kimia</option>
+            <option value="Teknik Elektro">Teknik Elektro</option>
+            <option value="Teknik Sipil">Teknik Sipil</option>
+            <option value="Teknik Mesin">Teknik Mesin</option>
+            <option value="Tata Niaga">Tata Niaga</option>
+        </select><br>
+        Tanggal Peminjaman       : <input type="date" name="TglPinjam" id="TglPinjam"  size="100"><br>
+        Tanggal Pengembalian     : <input type="date" name="TglKembali" id="TglKembali" size="100"><br>
+
+        <input type="submit" name="tblSimpan" value="Simpan">
+        <a href="website.html">Kembali</a>
+        <script src="scripttransaksi.js" ></script>
+    </form>
+</nav>
+</html>

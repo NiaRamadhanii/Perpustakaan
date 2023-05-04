@@ -1,0 +1,59 @@
+<style>
+*{
+    font-family:'Ubuntu', sans-serif;    
+}body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: wheat;
+}
+
+    /*style the header*/
+    header {
+        background-color: white;
+        padding :30px;
+        margin-bottom: -45px;
+        text-align : center;
+        font-size : 98 px;
+        color:black;
+    }
+    
+    header p {
+        background-color:wheat;
+        text-align : left;
+        font-size : 8 px;
+        color:black;
+        margin-top: -12px;
+        margin-left: -30px;
+        margin-right: -30px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    /*Create two colums/boxes that floats next to each other*/
+    nav{
+
+        float: left;
+        width: 57%;
+        height: 60px; /* onlu for demonstraiton, should be removed */
+        background-color:#ad4444;
+    }
+    nav ul{
+        list-style-type: none ;
+        padding:0;
+        background-color: #ad4444;
+    }
+
+    .hai{
+        background-color: wheat;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+article p {
+    padding :0;
+    margin-top: 20px;
+    margin-left: 70px;
+    text-align : center;
+    font-size :5 px;
+    color:black;
+}
+
